@@ -39,9 +39,6 @@ function insert_sort(){
 					if($sortArray[$j]<$sortArray[$l]){
 						$cutOff = $l;
 						// echo ("<br> yes it is!  Cutoff is: " . $cutOff);
-					}else
-					{
-						// echo ("<br> no it is not! j [" . $j . "]: " . $sortArray[$j] ." and l[" .$l . "]: " . $sortArray[$l] );
 					}
 				}
 				$temp = $sortArray[$j];
